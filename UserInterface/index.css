@@ -1,0 +1,125 @@
+header {
+  width: 100%;
+  height: 12%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #0073e6;
+  z-index: 1;
+}
+
+#header-content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+}
+
+img {
+  max-width: 30%;
+  max-height: 50%;
+  margin-left: 14px;
+}
+
+.login-signup {
+  display: flex;
+  height: 60%;
+  width: 15%;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 14px;
+}
+
+#signup, #login {
+  border-style: thin;
+  border-radius: 5px;
+  color: white;
+  height: 75%;
+  text-align: center;
+  padding-top: 7px;
+  font-family: verdana;
+  font-size: 16px;
+}
+
+#login {
+  background-color: #004080;
+  width: 43%;
+}
+
+#signup {
+  background-color: #33cc33;
+  font-weight: 600;
+  width: 47%;
+}
+
+#board-1 {
+  position: absolute;
+  background-image: url("trelloImgs/usecases-bg.jpg");
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#board-1-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  margin-top: 15%;
+}
+
+#sent1 {
+  color: white;
+  font-family: Tahoma;
+  font-size: 37px;
+  font-weight: bolder;
+  width: 50%;
+  text-indent: 7%;
+}
+
+#sent2 {
+  margin-top: 5%;
+  font-family: sans-serif;
+  opacity: 0.5;
+  font-size: 22px;
+  width: 47%;
+  color: white;
+  text-indent: -5%;
+}
+
+#sent4 {
+  margin-top: 5%;
+  width: 20%;
+  font-family: Tahoma;
+  font-weight: 100;
+  font-size: 18px;
+  color: white;
+}
+
+#sent3 {
+  margin-top: 5%;
+  width: 19%;
+  height: 5%;
+  background-color: #00b33c;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Verdana;
+  text-align: center;
+  border-radius: 5px;
+  padding-top: 10px;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+#sent3 > a {
+  color: white;
+  text-decoration: none;
+}
+
+#sent4 > a {
+  color: white;
+}
