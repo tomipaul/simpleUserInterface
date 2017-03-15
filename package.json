@@ -1,0 +1,25 @@
+{
+  "name": "userinterface",
+  "version": "1.0.0",
+  "description": "a simple user interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomipaul/simpleUserInterface.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "ux",
+    "ui"
+  ],
+  "author": "Oluwatomi Akande",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomipaul/simpleUserInterface/issues"
+  },
+  "homepage": "https://github.com/tomipaul/simpleUserInterface#readme"
+}
